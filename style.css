@@ -52,11 +52,16 @@ body {
   background-color:#eaf3fb;
   color: #363030; }
 
-.logo{background:url(images/logo.png) no-repeat; width:70px; height:50px;margin-top:4%;}
+.logo{background:url(images/logo.png) no-repeat; width:auto; height:50px;margin-top:4%;}
 
 .subhead{font-size:1.4rem;font-weight:500;line-height:1.3;margin-bottom:5rem;margin-left:0;}
 
 .logocontainer{background-color:#eaf3fb;margin-top:6rem;padding:4rem 0;}
+img.resize {
+    height: auto;
+    width:540px; /* you can use % */
+}
+
 
 /*.footer {background-image:url(images/logo.png);background-repeat: no-repeat;background-position:right top; height:33px;margin-bottom:3rem;padding-top:5px;font-size:14px;color:#000;}
 .footer a{color:#000;border:0;}
@@ -70,8 +75,8 @@ body {
 @media 
 (-webkit-min-device-pixel-ratio: 2), 
 (min-resolution: 192dpi) { 
-    .logo{background:url(images/logo.png) no-repeat;background-size:70px 50px;} 
-    .footer{background-image:url(images/logo.png); background-size:31px 33px;}
+    .logo{background:url(images/logo.png) no-repeat;background-size:auto 50px;} 
+    .footer{background-image:url(images/logo.png); background-size:auto 33px;}
 }
 
 /********** Typography ***********/
